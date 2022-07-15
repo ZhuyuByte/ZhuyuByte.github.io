@@ -10,7 +10,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="mysql数据同步方案">
 <meta property="og:url" content="https://zzeasy.github.io/2022/07/15/mysql%E6%95%B0%E6%8D%AE%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/index.html">
-<meta property="og:site_name" content="Zzeasy-Blog">
+<meta property="og:site_name" content="Zzeasy">
 <meta property="og:description" content="方案一 基于LVM快照进行备份切换介绍:MySQL数据库本身并不支持快照功能(sqlServer支持)因此快照备份是指通过文件系统支持的快照功能对数据库进行备份备份的前提是将所有数据库文件放在同一文件分区中，然后对该分区进行快照操作 LVM是LINUX系统下对磁盘分区进行管理的一种机制,LVM使用写时复制(copy-on-write)的技术来创建快照——例如，当创建一个快照时，仅复制原始卷中数据的">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://img-blog.csdnimg.cn/3f4a8da23d5a448f998920fd7323387a.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5pif5YWJ5LmL5a2QMDMxNw==,size_20,color_FFFFFF,t_70,g_se,x_16">
